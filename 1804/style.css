@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+}
+
+@font-face {
+	font-family: classic;
+	src: url(krinkes/KrinkesRegularPERSONAL.ttf);
+}
+
+@font-face {
+	font-family: classicItalic;
+	src: url(krinkes/KrinkesDecorPERSONAL.ttf);
+}
+
+header{
+	width: auto;
+	height: 500px;
+	background-image: url(images/woocommerce-68640-647998.cloudwaysapps.com-cheiro-verde-grande-1-2097x1201.jpg);
+	background-repeat:  no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+nav ul{
+	height: 120px;
+	width: 100%;
+	display: flex;
+	color: azure;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+li{
+	font-family: classic;
+	font-size: 50px;
+	color: purple;
+	list-style: none;
+	font-style: oblique;
+}
